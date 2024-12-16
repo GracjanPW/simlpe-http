@@ -1,0 +1,17 @@
+{
+  "name": "simlpe-http",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -x tsx index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
